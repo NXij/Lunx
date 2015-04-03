@@ -9,7 +9,6 @@ arch=('i686' 'x86_64')
 url="https://www.trillian.im"
 license=('Proprietary')
 depends=('gtkmm3' 'libzip' 'openssl' 'webkitgtk' 'libnotify' 'libpulse' 'libxss')
-install='trillian.install'
  
 if [[ "$CARCH" == "i686" ]]; then
 	source=("https://www.trillian.im/get/linux/2.0/apt/dists/stable/main/binary-i386/trillian_2.0.0.4_i386.deb")
